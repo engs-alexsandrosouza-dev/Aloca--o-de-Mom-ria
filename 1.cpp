@@ -6,7 +6,7 @@ void vetor(){
     int n;
     cout << "Informe quantas posições terá o seu vetor: ";
     cin >> n;
-    int* arr = new int [n];
+    int arr = new int [n];
     cout << "Informe os valores de seu vetor: ";
     
     for (int i = 0; i < n; i++){
